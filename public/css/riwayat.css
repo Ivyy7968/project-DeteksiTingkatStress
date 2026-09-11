@@ -1,0 +1,127 @@
+/* ── Riwayat Item ── */
+.riwayat-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #f3f4f6;
+    transition: background 0.15s;
+}
+.riwayat-item:hover {
+    background: #f8f9fc;
+}
+.riwayat-item:last-child {
+    border-bottom: none;
+}
+
+/* ── Icon ── */
+.riwayat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+/* ── Info ── */
+.riwayat-info {
+    flex: 1;
+    min-width: 0;
+}
+.riwayat-level {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+}
+.riwayat-meta {
+    font-size: 0.78rem;
+    color: #6b7280;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.riwayat-meta-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #d1d5db;
+    flex-shrink: 0;
+}
+
+/* ── Actions ── */
+.riwayat-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+/* ── Button Detail ── */
+.btn-detail {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 1.5px solid #4f46e5;
+    color: #4f46e5;
+    background: transparent;
+}
+.btn-detail:hover {
+    background: #4f46e5;
+    color: #fff;
+}
+
+/* ── Button Cetak ── */
+.btn-cetak {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 1.5px solid #e5e7eb;
+    color: #6b7280;
+    background: transparent;
+}
+.btn-cetak:hover {
+    border-color: #9ca3af;
+    color: #374151;
+    background: #f9fafb;
+}
+
+/* ── Nomor Urut ── */
+.nomor-urut {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #9ca3af;
+    width: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ── Responsive ── */
+@media (max-width: 576px) {
+    .riwayat-item {
+        padding: 0.75rem 1rem;
+        gap: 0.75rem;
+    }
+    .riwayat-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .riwayat-meta {
+        gap: 0.35rem;
+    }
+}

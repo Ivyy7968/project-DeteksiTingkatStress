@@ -1,0 +1,36 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #1e1b4b, #4f46e5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.auth-card {
+    background: #fff;
+    border-radius: 1.25rem;
+    padding: 2.5rem;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.auth-brand {
+    color: #4f46e5;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.form-control:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.15);
+}
+
+.btn-primary {
+    background: #4f46e5;
+    border-color: #4f46e5;
+}
+.btn-primary:hover {
+    background: #4338ca;
+    border-color: #4338ca;
+}

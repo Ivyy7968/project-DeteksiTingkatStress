@@ -1,0 +1,32 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #1e1b4b, #4f46e5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.auth-card {
+    background: #fff;
+    border-radius: 1.25rem;
+    padding: 2.5rem;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.15);
+}
+
+.btn-primary {
+    background: #4f46e5;
+    border-color: #4f46e5;
+}
+.btn-primary:hover {
+    background: #4338ca;
+    border-color: #4338ca;
+}
