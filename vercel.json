@@ -9,8 +9,8 @@
         }
     },
     "routes": [
-        { "src": "/build/(.*)", "dest": "/build/$1" },
+        { "src": "/(build|css|images)/(.*)", "dest": "/$1/$2" },
         { "src": "/(favicon\\.ico|robots\\.txt)", "dest": "/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
-    ]
+]
 }
